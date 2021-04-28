@@ -8,6 +8,27 @@ html,body {
   color: white;
 }
 
+#About>h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+#About > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#milo-cart {
+  width: 70%;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
 .line {
   width: 100vw;
 }
@@ -106,7 +127,8 @@ a {
 #sogo{background-image:url("SOGO.png");}
 #spotify{background-image:url("SPOTIFY.png");}
 #milo {background-image:url("milo.jpg");}
-#namsa {background-image:url("NAMSA.jpg");}
+#turtles {background-image:url("saveturtles.png");}
+
 
 
 #aloevera {background-image:url("aloevera.png");}
@@ -132,12 +154,19 @@ img {
   max-width: 80%;
 }
 
+/*try sizing here after add classes*/
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
+
+#spotify-size {
+  max-width: 50%;
+  height: auto;
+}
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -235,6 +264,17 @@ p {
   .prev, .next,.text {font-size: 11px}
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {
+      width: 80%;
+      padding: 70%;
+    }
+  }
+
 .carousel-item-inner {
   max-width: 50%;
 }
+
