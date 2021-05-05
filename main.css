@@ -122,13 +122,14 @@ a {
   opacity: 0.2;
 }
 
-#koi {background-image:url("KOI.png");}
-#mbsb{background-image:url("mbsb.jpg");}
-#sogo{background-image:url("SOGO.png");}
-#spotify{background-image:url("SPOTIFY.png");}
-#milo {background-image:url("milo.jpg");}
-#turtles {background-image:url("saveturtles.png");}
-#celcom {background-image:url("celcom.jpg");}
+#koi {background-image:url("home/KOI.png");}
+#mbsb{background-image:url("home/mbsb.jpg");}
+#sogo{background-image:url("home/SOGO.png");}
+#spotify{background-image:url("home/SPOTIFY.png");}
+#milo {background-image:url("home/milo.jpg");}
+#turtles {background-image:url("home/saveturtles.png");}
+#celcom {background-image:url("home/celcom.jpg");}
+#cimb {background-image:url("home/cimb.png");}
 
 
 
@@ -138,10 +139,10 @@ a {
 #lippies{background-image:url("sogo/lippies.png");}
 #teens{background-image:url("sogo/teens.png");}
 
-#mbsb {background-image:url("mbsb.jpg");}
-#celcom {background-image:url("celcom.jpg");}
-#cimb {background-image:url("cimb.png");}
-#midvalley {background-image:url("midvalley.png");}
+
+
+
+
 
 
 
