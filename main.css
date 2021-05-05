@@ -8,6 +8,11 @@ html,body {
   color: white;
 }
 
+p {
+  font-size: 0.1rem;
+}
+
+/*About page*/
 #About>h1 {
   text-align: center;
   font-weight: bolder;
@@ -21,6 +26,15 @@ html,body {
   width: 50%;
 }
 
+.mini-logo {
+  width: 15%;
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Milo page*/
 #milo-cart {
   width: 70%;
 }
@@ -131,20 +145,10 @@ a {
 #celcom {background-image:url("home/celcom.jpg");}
 #cimb {background-image:url("home/cimb.png");}
 
-
-
-
 #aloevera {background-image:url("sogo/aloevera.png");}
 #elizabeth{background-image:url("sogo/elizabeth.png");}
 #lippies{background-image:url("sogo/lippies.png");}
 #teens{background-image:url("sogo/teens.png");}
-
-
-
-
-
-
-
 
 .koi-quotes p {
   font-size: 1.5rem;
