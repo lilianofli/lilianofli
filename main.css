@@ -13,6 +13,9 @@ html,body {
   height: 10%;
 }
 
+.index-profile {
+  text-align: center;
+}
 
 p {
   font-size: 5px; /*not changing */
