@@ -54,8 +54,12 @@ p {
   width: 70%;
 }
 
-.carousel-inner {
-  width: 100%;
+.carousel-inner > img{
+  width: 70%;
+}
+
+.milo-tweet img {
+  width: 20%;
 }
 
 .line {
