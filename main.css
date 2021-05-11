@@ -23,6 +23,10 @@ p {
   text-align:left;
 }
 
+.logo-name {
+  z-index: -1;
+}
+
 /*About page*/
 #About>h1 {
   text-align: center;
@@ -129,7 +133,6 @@ a {
   
 }
 
-
 .gallery-item {
   float: left;
   position: relative;
@@ -170,9 +173,6 @@ a {
 #lippies{background-image:url("sogo/lippies.png");}
 #teens{background-image:url("sogo/teens.png");}
 
-.koi-quotes p {
-  font-size: 1.5rem;
-}
 
 /* not working from here!!!!*/
 .mySlides {display: none}
@@ -287,10 +287,6 @@ p {
   color: black;
 }
 
-.koi-section, .koi-quotes {
-  margin-left: 10%;
-}
-
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -301,22 +297,32 @@ p {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px) 
   and (-webkit-min-device-pixel-ratio: 2) {
     html {
-      width: 80%;
-      padding: 70%;
+      width: 60%;
+      padding: 50%;
     }
   }
 
 .carousel-item-inner {
-  max-width: 50%;
+  max-width: 40%;
 }
 
+/*Phone*/
+@media (max-width: 768px) {
+p, .nav {
+    font-size: 1.1rem;
+}
+/*not working */
+h1 > intro {
+  font-size: 2.3rem;
+}
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+  }

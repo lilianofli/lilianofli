@@ -18,9 +18,11 @@
          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
          <link rel="stylesheet" href="main.css">
+         <link rel="stylesheet" href="koi.css">
          
          <a href="index.html">
-         <div class="wrap">
+          <section class="logo-name">
+         <section class="wrap">
              <div class="line">
                <div class="left">
                  <div class="content">
@@ -45,9 +47,11 @@
                  </div>
                </div>
                </div>
-               <a class="line">
+               <div class="line">
                    <div class="left">
          </div>
+        </div>
+      </section>
        </a>
          <script src="slide.js" async defer></script>
     
@@ -90,30 +94,28 @@
 
     <h1> What People Say</h1>
 
-        <div class="koi-quotes">
-            <p>
-            Lilian Li’s exquisite prose jumps off the page. It exudes passion for all things Malaysia in the most delightful of ways. Don’t miss this one! 
-            </p>
-            <h3>Mark W. Sasse</h3>
-            <p>
-                Language drives the drama in House of Koi. Characters fail to connect because of what they cannot say, due to language barriers, and what they will not say, due to emotional ones. The sights and sounds—and particularly the smells and tastes—of Bukit Mertajam enliven this charming coming-of-age novel.
-            </p>
-            <h3>Christopher Amenta</h3>
-            <p>
-                …your angle is great—struggling with your identity within your own culture. THAT is going to be the next big thing—when other cultures collide with yours in your own hometown. Because we are increasingly international without leaving home. Brilliant.            
-            </p>
-            <h3>Carolyn Jew</h3>
-            <p>
-                I’m so excited to read this! I went to an international school where I embraced my American identity and completely rejected my Asian heritage. It’s so comforting to hear from other Malaysians who had similar cultural difficulties. Thank you for sharing your story. I hope to do the same someday.            
-            </p>
-            <h3>Cheyenne Ka-En Tang</h3>
-            <p>
-                Lilian Li, with poignant cultural insight, drew me immediately into Mila’s dilemma as she surrenders her privileged American international education to immerse back into her native Chinese island culture at a vulnerable stage of life.
-            </p>
-            <h3>Debbie Chin</h3>
-        </div>
-
-        <div id="instagram-feed-demo" class="instagram_feed">
+    <section class="koi-quotes">
+      <div class="quote">
+          <h3>Lilian Li’s exquisite prose jumps off the page. It exudes passion for all things Malaysia in the most delightful of ways. Don’t miss this one!</h3>
+          <p>Mark W. Sasse</p>
+      </div>
+      <div class="quote">
+          <h3>Language drives the drama in House of Koi. Characters fail to connect because of what they cannot say, due to language barriers, and what they will not say, due to emotional ones. The sights and sounds—and particularly the smells and tastes—of Bukit Mertajam enliven this charming coming-of-age novel.</h3>
+          <p>Christopher Amenta</p>
+      </div>
+      <div class="quote">
+          <h3>…your angle is great—struggling with your identity within your own culture. THAT is going to be the next big thing—when other cultures collide with yours in your own hometown. Because we are increasingly international without leaving home. Brilliant.</h3>
+          <p>Carolyn Jew</p>
+      </div>
+      <div class="quote">
+          <h3>I’m so excited to read this! I went to an international school where I embraced my American identity and completely rejected my Asian heritage. It’s so comforting to hear from other Malaysians who had similar cultural difficulties. Thank you for sharing your story. I hope to do the same someday.</h3>
+          <p>Cheyenne Ka-En Tang</p>
+      </div>
+      <div class="quote">
+          <h3>Lilian Li, with poignant cultural insight, drew me immediately into Mila’s dilemma as she surrenders her privileged American international education to immerse back into her native Chinese island culture at a vulnerable stage of life.</h3>
+          <p>Debbie Chinn</p>
+      </div>
+  </section>
 
         </div>
         <style type="text/css" media="screen">
@@ -176,7 +178,10 @@
                   color:#white;
                 }
                 iframe{
-                  background-color: #ffffff;
+                  background-color: #ffffff; 
+                }
+                #gr_add_to_books {
+                  background-color: transparent; /*how to remove the white background??? */
                 }
                 #goodreads-widget a:hover { text-decoration: underline; }
                 #goodreads-widget a:active {
@@ -195,17 +200,14 @@
                 }
               </style>
               <div id="goodreads-widget">
-                <div id="gr_header"><h1><a rel="nofollow" href="https://www.goodreads.com/book/show/49112514-house-of-koi">House of Koi Reviews </a></h1></div>
+                <div id="gr_header"><h1><color="#000000" a rel="nofollow" href="https://www.goodreads.com/book/show/49112514-house-of-koi">House of Koi Reviews </color=></h1></div>
                 <iframe id="the_iframe" src="https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&format=html&header_text=House+of+Koi+Reviews+&isbn=164137344X&links=black&min_rating=5&num_reviews=5&review_back=ffffff&stars=ffe268&stylesheet=&text=444" width="575" height="400" frameborder="0"></iframe>
                 <div id="gr_footer">
                   <a class="gr_branding" target="_blank" rel="nofollow noopener noreferrer" href="https://www.goodreads.com/book/show/49112514-house-of-koi?utm_medium=api&utm_source=reviews_widget">Reviews from Goodreads.com</a>
                 </div>
               </div>
               
-                  
-
-
-
+                
 
             <script type="text/javascript" charset="utf-8" src="https://www.goodreads.com/author/author_widget/19791962.Lilian_Li?widget_id=1617409442"></script>
 
