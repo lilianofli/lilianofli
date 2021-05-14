@@ -1,22 +1,27 @@
+
+.section-quotes {
+    font-size: 1.8rem;
+}
+
 .koi-quotes{
     display: flex;
     flex-wrap: wrap;
-    width:600px;
+    width:800px;
     margin: 0 auto;
     position: relative;
 }
 
 .quote{
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: flex-start;
     align-content: flex-start;
     flex-grow: 2;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     color: black;
-    width:25%; /*change according to number*/
+    width:50%; /*change according to number*/
     height: 100%;
-    padding: 5%; /*can change spacing */
+    padding: 10%; /*can change spacing */
 }
 
 .quote h3{
@@ -39,5 +44,6 @@
 /* p is name*/
 .quote p {
     position: relative;
+    font-size: 1.5rem;
     /*add font-size*/
 }
