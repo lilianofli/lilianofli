@@ -14,63 +14,76 @@
         <meta name="description" content="Lilian's Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-        <a href="index.html">
-          <section class="logo-name">
-        <section class="wrap">
-            <div class="line">
-              <div class="left">
-                <div class="content">
-                  <span class="spanSlow">Lilian</span>
-                </div>
-              </div><!--
-              --><div class="right">
-                <div class="content">
-                  <span class="spanSlow">Lilian</span>
-                </div>
-              </div>
-            </div>
-            <div class="line">
-              <div class="left">
-                <div class="content">
-                  <span class="spanSlow">Li</span>
-                </div>
-              </div><!--
-              --><div class="right">
-                <div class="content">
-                  <span class="spanSlow">Li</span>
-                </div>
-              </div>
-              </div>
-              <div class="line">
-                  <div class="left">
-        </div>
-      </div>
-    </section>
-      </a>
-        <script src="slide.js" async defer></script>
-    </head>
     
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        <ul class="nav">
-            <li><a href="about.html">About</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://www.instagram.com/lilianofli/"><img src="home/ig-logo.png" alt="instagram-logo" width= "30px" height="0.2%"></a></li>
-          </ul>
+<!-- HEADER STUFF -->
+<section class="logo-name">
+  <div class="wrap">
+    <div class="line" onclick="location.href='index.html';" style="cursor: pointer;">
+      <div class="left">
+        <div class="content">
+          <span class="spanSlow">Lilian</span>
+        </div>
+      </div>
+      <div class="right">
+        <div class="content">
+          <span class="spanSlow">Lilian</span>
+        </div>
+      </div>
+    </div>
+    <div class="line" onclick="location.href='index.html';" style="cursor: pointer;">
+      <div class="left">
+        <div class="content">
+          <span class="spanSlow">Li</span>
+        </div>
+      </div>
+      <div class="right">
+        <div class="content">
+          <span class="spanSlow">Li</span>
+        </div>
+      </div>
+    </div>        
+  </div>
+  <script src="slide.js" async defer></script>
+</section>
+
+<!-- End of Moving Logo -->
+
+<!-- NAV Bar -->
+<nav role="navigation" class="NavBar">
+  <ul>
+    <li><a href="#" aria-haspopup="true">Projects</a>
+      <ul class="dropdown" aria-label="submenu">
+        <li><a href="koi.html">House of Koi</a></li>
+        <li><a href="turtles.html">Save the Turtles</a></li>
+        <li><a href="milo.html">Nestle Milo</a></li>
+        <li><a href="spotify.html">Spotify</a></li>
+        <li><a href="mbsb.html">MBSB Bank</a></li>
+        <li><a href="celcom.html">Celcom</a></li>
+        <li><a href="sogo.html">SOGO</a></li>
+        <li><a href="map.html">Map Website</a></li>
+      </ul>
+    </li>
+    <li><a href="#">About</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="https://www.instagram.com/lilianofli/"><img src="ig-logo.png" alt="instagram-logo" width= "30px" height="0.2%"></a></li>
+  </ul>
+</nav>
+<!-- End HEADER STUFF -->
+        
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-        
-             <h1 class="intro">Lilian is
-                <span
-                    class="txt-static"
-                    data-period="2000"
-                    data-rotate='[ "an author.", "a synchronized swimmer.", "a Malaysian.", "a bookstagrammer.", "learning to code.", "a booktoker." ]'>
-                </span>
-            </h1>
+  <script src="typing-rotate.js" async defer></script>
+  <div class="intro"> Lilian is
+    <span
+        class="txt-rotate"
+        data-period="2000"
+        data-rotate='[ "an author.", "a synchronized swimmer.", "a Malaysian.", "a bookstagrammer.", "learning to code.", "a booktoker." ]'>
+        </span>
+  </div>
 
       <div id="About">
 
@@ -90,20 +103,25 @@
         </p>
 
         <br>
-
-        <h1> My Resume</h1>
-        <img src="about/Resume-LilianLi.jpg">
-
+        <div class="Resume">
+          <h1> My Resume</h1>
+          <a class="lightbox" href=".pdf">
+            <img src="about/Resume-LilianLi.jpg"/>
+         </a> 
+         </div>
+        </div>
+        
         <br>
-
-        <h1> Connect with Me </h1>
-        <div class="mini-logo">
-        <a href="https://www.linkedin.com/in/li-lilian/">
-          <img src="about/linkedin.svg" alt="LinkedIn logo">
-        </a>
-        <a href="mailto:lilianli@bu.edu">
-        <img src="about/email.png" alt="email icon">
-        </a>
+        <div class="connect">
+          <h1> Connect with Me </h1>
+          <div class="mini-logo">
+          <a href="https://www.linkedin.com/in/li-lilian/">
+            <img src="about/linkedin.svg" alt="LinkedIn logo">
+          </a>
+          <a href="mailto:lilianli@bu.edu">
+          <img src="about/email.png" alt="email icon">
+          </a>
+        </div>
       </div>
 
       </div>
