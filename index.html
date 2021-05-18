@@ -14,55 +14,48 @@
         <meta name="description" content="Lilian's Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
-
-        <!--how to add link to name logo here-->
-        <a href="index.html">
-          <section class="logo-name">
-        <div class="wrap">
-            <div class="line">
-              <div class="left">
-                <div class="content">
-                  <span class="spanSlow">Lilian</span>
-                </div>
-              </div><!--
-              --><div class="right">
-                <div class="content">
-                  <span class="spanSlow">Lilian</span>
-                </div>
-              </div>
-            </div>
-            <div class="line">
-              <div class="left">
-                <div class="content">
-                  <span class="spanSlow">Li</span>
-                </div>
-              </div><!--
-              --><div class="right">
-                <div class="content">
-                  <span class="spanSlow">Li</span>
-                </div>
-              </div>
-              </div>
-              <div class="line">
-                  <div class="left">
-        </div>
-        </div>
-      </section>
-      </a>
-        <script src="slide.js" async defer></script>
     </head>
     
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <!-- Moving Logo -->
+      <section class="logo-name">
+        <div class="wrap">
+          <div class="line" onclick="location.href='index.html';" style="cursor: pointer;">
+            <div class="left">
+              <div class="content">
+                <span class="spanSlow">Lilian</span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="content">
+                <span class="spanSlow">Lilian</span>
+              </div>
+            </div>
+          </div>
+          <div class="line" onclick="location.href='index.html';" style="cursor: pointer;">
+            <div class="left">
+              <div class="content">
+                <span class="spanSlow">Li</span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="content">
+                <span class="spanSlow">Li</span>
+              </div>
+            </div>
+          </div>        
+        </div>
+        <script src="slide.js" async defer></script>
+      </section>
 
+      <!-- End of Moving Logo -->
         <!--why this one doesn't have blue underline when hover-->
-        <ul class="nav">
-            <li><a href="about.html">About</a></li> <!--in the way of the logo's div so it goes to index.html instead-->
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://www.instagram.com/lilianofli/"><img src="home/ig-logo.png" alt="instagram-logo" width= "30px" height="0.2%"></a></li>
+        <nav role="navigation" class="NavBar">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="https://www.instagram.com/lilianofli/"><img src="ig-logo.png" alt="instagram-logo" width= "30px" height="0.2%"></a></li>
           </ul>
+        </nav>
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
         
