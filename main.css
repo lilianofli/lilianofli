@@ -345,21 +345,6 @@ iframe{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*Milo page*/
-#milo-cart {
-  width: 70%;
-}
-
-.carousel-inner > img{
-  width: 70%;
-}
-
-.milo-tweet img {
-  width: 20%;
-}
-
-
-
 .intro {
   font-weight: 400;
   margin: 0.4em 0;
@@ -401,12 +386,6 @@ a {
   display:block;
 }
 
-.turtle-stories > img {
-  width: 40%;
-  height: 20%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .overlay: hover {
   background-color: white;
@@ -428,14 +407,19 @@ a {
 #lippies{background-image:url("sogo/lippies.png");}
 #teens{background-image:url("sogo/teens.png");}
 
+/*SOGO */
+.collage {
+  width: 80%;
+  margin: 0 auto;
+}
 
 /* not working from here!!!!*/
 .mySlides {display: none}
 
-img {
+/*img {
   vertical-align: middle;
   max-width: 80%;
-}
+} */
 
 /*try sizing here after add classes*/
 /* Slideshow container */
@@ -464,15 +448,29 @@ img {
 }
 
 /*Turtles */
+
+.turtle-stories > img {
+  width: 40%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .t-block {
   max-width: 100%;
   margin: 0 auto;
   height: auto;
   display: block;
+  text-align: center;
+}
+
+.t-carousel-item-active {
+  text-align: center;
 }
 
 .t-carousel-inner {
   max-width: 80%;
+  margin: 0 auto;
 }
 
 .t-post {
@@ -560,6 +558,51 @@ p {
   width: 50%;
   justify-content: center;
 }
+
+/*Milo page*/
+.Milo-cart {
+  width: 60%;
+}
+
+.m-carousel-inner > .milo-tweet {
+  width: 49%;
+}
+
+ .milo-tweet2 {
+  width: 50%;
+}
+
+.milo-block {
+  width: 30%;
+}
+
+.m-snapchat {
+  width: 65%;
+}
+
+.carousel-item-active {
+  background-color: #bedcfa;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* SPOTIFY */
+
+#spotify-size {
+  width: 80%;
+  text-align: center;
+  background-color: #bedcfa;
+  padding: 0;
+}
+
+.s-block, .s-block2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #bedcfa;
+
+}
+
 
 /* KOI */
 .gr_container {
