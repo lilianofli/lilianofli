@@ -580,3 +580,13 @@ iframe{
 .d-block {
   max-width: 100%;
 }
+
+/*MAP*/
+.map-size {
+  width: 70%;
+  justify-content: center;
+}
+
+.map-bottom {
+  padding-bottom: 10%;
+}
