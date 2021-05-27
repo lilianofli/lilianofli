@@ -28,42 +28,46 @@ p {
   font-size: 2rem;
 }
 .collage {
-  display: grid;
-  column-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.collage a:hover {
-  color: white;
-  opacity: 0.4;
-  
+.collage a{
+  margin: 0;
+  width: 34vw;
+  height: 60vh;
+  margin: 5px;
+  text-decoration: none;
 }
-.collage a div div {
-  display: none;
-  background-color: black;
-}
-
-.collage a:hover div div {
-  display: visible;  
-  background-color: green;
-  width: 20px;
-  height: 20px;
-
-}
-
 .gallery-item {
-  float: left;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: auto;
-  padding-bottom: 100%;
-  margin:1.66%;
+  height: 100%;
+  margin: 0;
   background-position:center center;
   background-repeat:no-repeat;
   background-size:cover;
-  display:block;
 }
-.overlay: hover {
+.gallery-item div {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #344fa1; /*change hover color */
+  text-align: center;
+}
+.gallery-item div h1{
+  color: white;
+  margin-top: 25%;
+  font-size: 4em; /*change font size for title */
+}
+.gallery-item:hover div {
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay:hover {
   background-color: white;
   opacity: 0.2;
 }
