@@ -502,9 +502,6 @@ iframe{
   max-width: 100%;
   margin: 0;
 }
-.mySlides img:hover{
-  opacity: 0.5;
-}
 .slide-controllers{
   display: flex;
   flex-direction: row;
@@ -549,32 +546,6 @@ iframe{
   background-color: #290149;
   color: white;
 }
-/* Caption text 
-
-.text {
-  color: #290149;
-  font-size: 15px;
-  padding: 8px 12px;
-  bottom: 8px;
-  height: min-content;
-  width: min-content;
-  max-width: 80vw;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  opacity: 0;
-  visibility: hidden;
-  transition: .5s ease-in-out
-}
-*/
-
-/*.mySlides img:hover ~ .text, .text:hover{
-  visibility: visible;
-  opacity: 1;
-  font-size: 2em;
-} */
-
-/* Number text (1/3 etc) */
 .numbertext {
   color: #290149;
   font-weight: bold;
@@ -594,27 +565,6 @@ iframe{
   margin: 0 auto;
 }
 
-
-
-
-/*.text {
-  color: #290149;
-  font-size: 15px;
-  padding: 8px 12px;
-  bottom: 8px;
-  height: min-content;
-  width: min-content;
-  max-width: 80vw;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  opacity: 0;
-  visibility: hidden;
-  transition: .5s ease-in-out
-}
-*/
-
-
 /*MAP*/
 .map-size {
   width: 70%;
@@ -627,5 +577,3 @@ iframe{
 
 /* MOBILE SIZES*/
 @media only screen and (max-width: 600px) 
-
-/*TURTLES */
