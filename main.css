@@ -60,7 +60,7 @@ p {
 }
 .gallery-item div h1{
   color: white;
-  margin-top: 25%;
+  margin-top: 35%;
   font-size: 4em; /*change font size for title */
 }
 .gallery-item:hover div {
@@ -79,7 +79,7 @@ p {
   height: 30vh;
   z-index: -1;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 2vh;
 }
 .logo-name .line{
   display: flex;
@@ -271,10 +271,9 @@ ul li ul:focus {
   display: flex;
   justify-content: center;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-margin: 0 auto;
 }
 .gr_book_container {
-  margin-left: -14vw;
+  margin: 0 auto;
   width: 85vw;
 }
 .gr_book_title {
