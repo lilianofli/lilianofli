@@ -36,8 +36,7 @@ html,body {
   .collage a{
     margin: 0;
     width: 100vw;
-    height: 50vh;
-    margin: 5px;
+    height: 38vh;
     text-decoration: none;
   }
   .gallery-item {
