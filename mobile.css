@@ -554,11 +554,11 @@ html,body {
   .numbertext {
     color: #290149;
     font-weight: bold;
-    max-width: 10vw;
+    max-width: 20vw;
     font-size: 2em;
     position: absolute;
     bottom: 0;
-    left: 44%;
+    left: 37%;
     opacity: .7;
     background: radial-gradient(ellipse 70% 50px, white,  transparent 50%);
     border-radius: 100%;
