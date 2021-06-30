@@ -231,10 +231,10 @@ ul li ul:focus {
   text-align: center;
   font-size: 3em;
 }
-.Resume{
+.resume{
   text-align: center;
 }
-.Resume img {
+.resume img {
   height: 100%;
   border: 3px solid white;
   box-shadow: 0px 0px 8px rgba(0,0,0,.3);
