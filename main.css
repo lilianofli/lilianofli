@@ -200,6 +200,7 @@ ul li ul:focus {
 }
 
 /* HOME PAGE */
+#lilac {background-image: url("home/cover_liliac.jpg");}
 #koi {background-image:url("home/KOI.png");}
 #mbsb{background-image:url("home/mbsb.jpg");}
 #sogo{background-image:url("home/SOGO.png");}
@@ -317,6 +318,16 @@ ul li ul:focus {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* ------------------------------------- BOOKS -------------------------------------------------------- */
+/* LILAC PAGE */
+.lilac-image{
+  height: 50vh;
+  text-align: center;
+  padding: 10px;
+}
+.lilac-image img{
+  height:100%;
+}
+
 /* KOI PAGE */
 .koi-image{
   height: 50vh;
